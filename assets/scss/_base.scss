@@ -59,8 +59,10 @@ body {
   font-family: Wotfard, Arial, serif;
   background-color: $body-background;
   color: $white-color;
+  scroll-behavior: smooth;
   scrollbar-color: #073a4d transparent;
   scrollbar-width: thin;
+  
 }
 body::-webkit-scrollbar {
   width: 14px;

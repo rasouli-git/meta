@@ -40,6 +40,7 @@ body {
   font-family: Wotfard, Arial, serif;
   background-color: #000;
   color: #fff;
+  scroll-behavior: smooth;
   scrollbar-color: #073a4d transparent;
   scrollbar-width: thin;
 }
