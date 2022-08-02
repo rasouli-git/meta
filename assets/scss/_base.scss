@@ -1,0 +1,91 @@
+$body-background: #000;
+$black-color: #000;
+$white-color: #fff;
+$pinky-color: #d26feb;
+$nav-color: #181717;
+$gradiant-background: linear-gradient(
+  180deg,
+  rgba(7, 58, 77, 0.4),
+  rgba(7, 58, 77, 0)
+);
+$banner-background: linear-gradient(
+    9.01deg,
+    rgba(0, 255, 255, 0.27) -45.61%,
+    rgba(82, 0, 255, 0.18) 102.05%,
+    rgba(82, 0, 255, 0.18) 214.49%
+  ),
+  #000;
+  $banner-color:#00ffd1;
+
+$radius: 12px;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: $white-color;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  direction: ltr;
+}
+
+body {
+  position: relative;
+  font-size: 1.5rem;
+  font-family: Wotfard, Arial, serif;
+  background-color: $body-background;
+  color: $white-color;
+  scrollbar-color: #073a4d transparent;
+  scrollbar-width: thin;
+}
+body::-webkit-scrollbar {
+  width: 14px;
+}
+body::-webkit-scrollbar-track {
+  background: #09163b;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #073a4d;
+  border: 2px solid #09163b;
+  border-radius: 6px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.gradiant-text {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    93.88deg,
+    #cd7cff 16.21%,
+    rgba(0, 255, 255, 0.4) 56.94%
+  );
+  background-clip: border-box;
+  -webkit-background-clip: text;
+}
