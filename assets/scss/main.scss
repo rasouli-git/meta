@@ -471,13 +471,14 @@ footer {
 
     &::before {
       content: " ";
-      width: 30px;
-      height: 30px;
+      width: 25px;
+      height: 25px;
       background: url("../images/x-small.png");
       background-repeat: no-repeat;
       background-size: 100%;
       display: inline-flex;
       margin-bottom: 10px;
+      object-fit: cover;
     }
     span {
       font-weight: 600;
