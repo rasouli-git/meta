@@ -1,9 +1,18 @@
 // start header
 const headerTag = document.querySelector(".header");
 const hamburgerMenu = document.querySelector(".header__humburger");
+const menuItem = document.querySelectorAll(".header__menu li");
 
 hamburgerMenu.addEventListener("click", () => {
   headerTag.classList.toggle("active");
+});
+
+menuItem.forEach((item) => {
+  item.addEventListener("click", () => {
+    if (headerTag.classList.contains("active")) {
+      headerTag.classList.remove("active");
+    }
+  });
 });
 // end header
 
