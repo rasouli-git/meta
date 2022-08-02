@@ -115,7 +115,7 @@ header .header__humburger .line {
 header .header__menu {
   position: absolute;
   width: 100%;
-  height: 360vh;
+  height: 100vh;
   top: 70px;
   right: 0;
   opacity: 0;
@@ -126,7 +126,6 @@ header .header__menu {
 }
 header .header__menu ul {
   width: 100%;
-  height: 100%;
   padding: 2rem 1rem;
   text-align: center;
 }
@@ -479,13 +478,15 @@ footer .footer__content .copy-right .policy span:nth-child(2) {
 }
 .banner-fixed__left::before {
   content: " ";
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   background: url("../images/x-small.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   display: inline-flex;
   margin-bottom: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .banner-fixed__left span {
   font-weight: 600;
