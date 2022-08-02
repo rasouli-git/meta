@@ -475,7 +475,7 @@ footer {
       height: 30px;
       background: url("../images/x-small.png");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: 100%;
       display: inline-flex;
       margin-bottom: 10px;
     }
@@ -605,7 +605,6 @@ footer {
       }
 
       .detail {
-
         &__title {
           font-weight: 300;
         }
@@ -614,7 +613,6 @@ footer {
         }
       }
       .score {
-
         &__title {
           font-size: 2rem;
         }
