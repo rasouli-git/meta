@@ -82,8 +82,8 @@ body::-webkit-scrollbar-thumb {
   z-index: 8;
 }
 .loader.hide {
-  -webkit-animation: loader 2s forwards;
-          animation: loader 2s forwards;
+  -webkit-animation: loader 1s forwards;
+          animation: loader 1s forwards;
 }
 .loader img {
   width: 250px;
