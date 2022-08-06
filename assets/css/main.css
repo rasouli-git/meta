@@ -82,8 +82,8 @@ body::-webkit-scrollbar-thumb {
   z-index: 8;
 }
 .loader.hide {
-  -webkit-animation: loader 1s forwards;
-          animation: loader 1s forwards;
+  -webkit-animation: loader 2s forwards;
+          animation: loader 2s forwards;
 }
 .loader img {
   width: 250px;
@@ -498,15 +498,13 @@ footer .footer__content .copy-right .policy span:nth-child(2) {
 }
 .banner-fixed__left::before {
   content: " ";
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   background: url("../images/x-small.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   display: inline-flex;
   margin-bottom: 10px;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 .banner-fixed__left span {
   font-weight: 600;
