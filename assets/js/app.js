@@ -51,3 +51,11 @@ const bannerDiv = document.querySelector(".banner-fixed");
 bannerLeft.addEventListener("click", () => {
   bannerDiv.classList.toggle("active");
 });
+
+
+// loader
+window.addEventListener('load',()=>{
+  const loader = document.querySelector('.loader');
+  loader.classList += ' hide'
+})
+// End loader

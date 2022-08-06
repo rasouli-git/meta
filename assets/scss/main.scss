@@ -1,5 +1,27 @@
 @import "base";
 
+// loader
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111111;
+  z-index: 8;
+
+  &.hide {
+    animation: loader 2s forwards;
+  }
+
+  img {
+    width: 250px;
+    height: 250px;
+  }
+}
+// End loader
+
 // start header
 header {
   position: relative;
@@ -929,5 +951,12 @@ footer {
   }
   100% {
     opacity: 0;
+  }
+}
+
+@keyframes loader {
+  100% {
+    opacity: 0;
+    visibility: hidden;
   }
 }
